@@ -1,0 +1,104 @@
+
+nav {
+    background-color: #ABEFCC;
+    font-family: vivaldi;
+    font-size: 20px;
+    margin-bottom: 0px;
+  }
+
+  nav > ul {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-inline-start: 0;
+    margin-block: 0;
+    height: 100%;
+  }
+
+  nav > ul > li {
+    color: #000000;
+    margin: 0 0.2rem;
+    padding: 0.2rem;
+    display: block;
+  }
+
+  
+nav > ul > li:hover {
+    color: gray;
+    cursor: col-resize;
+  }
+  
+  li > a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  header {
+    padding: 0;
+    background-color: #ABEFCC;
+    font-family: vivaldi;
+    margin: 0 0.2rem;
+    padding: 0.2rem;
+    margin-block: 0;
+    height: 100%;
+    text-align: center;
+    
+    
+  }
+
+  header > p {
+    margin-top: 0;
+    margin-bottom: 1em;
+    background-color: #ABEFCC;
+    font-family: Yu Gothic Light;
+      
+    
+  }
+
+  #title {
+    margin-bottom: 0;
+  }
+  
+  #subtitle {
+    margin-top: 5px;
+  }
+
+  #navbar {
+    position: sticky;
+    top: 0;
+    
+  }
+
+  #navbar {
+    border-bottom: 1px solid white;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  #navbar, header {
+    width: 100%;
+    margin: 0;
+  }
+
+
+img {
+    display: block;
+    
+  }
+  
+  #image {
+    max-width: 100%;
+    height: auto;
+    
+  }
+
+  #flower {
+    position: absolute;
+    right: 0;
+    top: 50%; /* Ajusta este valor para mover la imagen hacia arriba o hacia abajo */
+    z-index: -1; /* Esto hace que la imagen quede detrás del resto del contenido */
+  }
