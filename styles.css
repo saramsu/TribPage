@@ -1,104 +1,179 @@
 
-nav {
-    background-color: #ABEFCC;
-    font-family: vivaldi;
-    font-size: 20px;
-    margin-bottom: 0px;
-  }
-
-  nav > ul {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    align-items: center;
-    padding-inline-start: 0;
-    margin-block: 0;
-    height: 100%;
-  }
-
-  nav > ul > li {
-    color: #000000;
-    margin: 0 0.2rem;
-    padding: 0.2rem;
-    display: block;
-  }
-
-  
-nav > ul > li:hover {
-    color: gray;
-    cursor: col-resize;
-  }
-  
-  li > a {
-    color: inherit;
-    text-decoration: none;
-  }
-
-  header {
-    padding: 0;
-    background-color: #ABEFCC;
-    font-family: vivaldi;
-    margin: 0 0.2rem;
-    padding: 0.2rem;
-    margin-block: 0;
-    height: 100%;
-    text-align: center;
-    
-    
-  }
-
-  header > p {
-    margin-top: 0;
-    margin-bottom: 1em;
-    background-color: #ABEFCC;
-    font-family: Yu Gothic Light;
-      
-    
-  }
-
-  #title {
-    margin-bottom: 0;
-  }
-  
-  #subtitle {
-    margin-top: 5px;
-  }
-
-  #navbar {
-    position: sticky;
-    top: 0;
-    
-  }
-
-  #navbar {
-    border-bottom: 1px solid white;
-  }
-  
-  body {
-    margin: 0;
-    padding: 0;
-  }
-  
-  #navbar, header {
-    width: 100%;
-    margin: 0;
-  }
-
+body {
+  margin: 0;
+  padding: 0;
+}
 
 img {
-    display: block;
-    
-  }
+  display: block;
   
-  #image {
-    max-width: 100%;
-    height: auto;
-    
-  }
+}
 
-  #flower {
-    position: absolute;
-    right: 0;
-    top: 50%; /* Ajusta este valor para mover la imagen hacia arriba o hacia abajo */
-    z-index: -1; /* Esto hace que la imagen quede detrás del resto del contenido */
-  }
+#image {
+  max-width: 100%;
+     height: auto;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+   
+ }
+
+ nav {
+  background-color: #ABEFCC;
+  font-family: vivaldi;
+  font-size: 20px;
+  margin-bottom: 0px;
+}
+
+  nav > ul {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-inline-start: 0;
+  margin-block: 0;
+  height: 10%;
+}
+
+ nav > ul > li {
+  color: #000000;
+  margin: 0 0.2rem;
+  padding: 0.2rem;
+  display: block;
+}
+
+nav > ul > li:hover {
+  color: gray;
+  cursor: col-resize;
+}
+
+  li > a {
+  color: inherit;
+  text-decoration: none;
+}
+
+header {
+  background-color: #ABEFCC;
+  font-size: 22px;
+  font-family: vivaldi;
+  margin: 0 0.2rem;
+  padding: 0.2rem;
+  margin-block: 0;
+  height: 25%;
+  text-align: center;
+}
+
+header > p {
+  margin-top: 0;
+  margin-bottom: 1em;
+  background-color: #ABEFCC;
+  font-family: Yu Gothic Light;
+}
+
+#img-caption{
+ font-family: Yu Gothic Light;
+
+}
+
+#title {
+  margin-bottom: 0;
+}
+
+#subtitle {
+  margin-top: 5px;
+}
+
+#navbar {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  border-bottom: 1px solid white;    
+}
+
+#navbar, header {
+  width: 100%;
+  margin: 0;
+}
+
+#birds {
+  position: absolute;
+  right: 9%;
+  top: 40%;
+  z-index: -1; 
+  width: 89%; 
+}
+
+#flowers {
+  position: absolute;
+  top: 11%; 
+  z-index: 1;
+  width: 36%; 
+}
+
+#tribute-link {
+font-family: Yu Gothic Light;
+padding: 10;
+padding-bottom: 10;
+ 
+}
+
+h2 {
+text-align: center; 
+font-family: 'Vivaldi', serif; /
+font-size: 2em; 
+}
+
+section[role="region"] {
+font-family: 'Yu Gothic Light', sans-serif; 
+font-size: 20px; 
+ padding-left: 20px;
+ padding-right: 20px;
+}
+
+#poem-container {
+display: flex;
+justify-content: space-between;
+ padding-left: 30px;
+ padding-right: 30px;
+}
+
+#original-poem, #translated-poem {
+  word-wrap: break-word; 
+   white-space: pre-wrap;
+}
+
+#poem-container {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+
+@media (max-width: 600px) {
+#poem-container {
+  flex-direction: column;
+}
+}
+
+
+#footer {
+background-color: #ABEFCC;
+display: flex;
+justify-content: center;
+height: 100px;
+}
+
+#footer,
+footer a {
+color: #000000;
+}
+
+#footer,
+footer p {
+color: #000000;
+font-family: Yu Gothic Light;
+}
+
+
+
+
+
